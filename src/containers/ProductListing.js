@@ -7,6 +7,8 @@ import ProductComponent from "./ProductComponent";
 const ProductPage = () => {
   const products = useSelector((state) => state.allProducts.products);
   const dispatch = useDispatch();
+
+
   const fetchProducts = async () => {
     const response = await axios
       .get("https://fakestoreapi.com/products")
@@ -19,6 +21,7 @@ const ProductPage = () => {
   useEffect(() => {
     fetchProducts();
   }, []);
+  
 
   console.log("Products :", products);
   return (

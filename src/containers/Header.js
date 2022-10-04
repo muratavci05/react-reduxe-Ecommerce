@@ -16,9 +16,7 @@ const Header = () => {
             </a>
             <a className="item">
               Favorite
-            </a>
-            
-            
+            </a>               
             <div className="right menu">
               <div className="item">
                 <div className="ui transparent icon input">
