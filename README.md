@@ -1,3 +1,5 @@
+![react-redux - ecommerce-project] (https://github.com/muratavci05/react-reduxe-Ecommerce/blob/bf444be6b2df1ceefc82a11cf1e2ee178181cf82/src/assent/fakeEcommerce.gif)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
